@@ -1,69 +1,30 @@
-# Welcome to your Lovable project
+# Dhiya Ramadhan
 
-## Project info
+Dhiya Ramadhan is an application designed to help users enhance their spiritual experience during the month of Ramadan. This app provides daily reflections, prayer schedules, and worship tracking features to help users manage their religious activities more easily.
 
-**URL**: https://lovable.dev/projects/e636f4e5-d244-407b-8b79-1c10a0d18e5c
+## Key Features
+- **Daily Reflections**: Articles and inspirational quotes for daily contemplation.
+- **Prayer Schedule**: Daily prayer times based on the user's location.
+- **Worship Tracking**: Daily worship records to help users stay consistent.
 
-## How can I edit this code?
+## Technologies Used
+- **Frontend**: React.js (with Vite)
+- **Backend**: Firebase / Supabase (if authentication or database features are used)
+- **Hosting**: Vercel
+- **API**: Prayer time API (if used)
 
-There are several ways of editing your application.
+## Installation and Running the Project
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/username/dhiya-ramadhan.git
+2  **Navigate to the project directory**
+   cd dhiya-ramadhan
+   
+3  **Install dependencies**
+    npm install
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e636f4e5-d244-407b-8b79-1c10a0d18e5c) and start prompting.
+4  **Run the project locally**
+    npm run dev
 
-Changes made via Lovable will be committed automatically to this repo.
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e636f4e5-d244-407b-8b79-1c10a0d18e5c) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
